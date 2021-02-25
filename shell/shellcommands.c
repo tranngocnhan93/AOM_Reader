@@ -7,7 +7,7 @@ char uartShellHistoryBuffer[SHELL_MAX_HIST_BUFF];
 const ShellCommand commands[] =
 {
     { "reboot",  cmd_reboot },
-//    { "dino", cmd_dino },
+    { "getmode", cmd_getmode },
     {NULL, NULL}
 };
 

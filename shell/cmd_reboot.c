@@ -26,8 +26,6 @@ void cmd_reboot(BaseSequentialStream *chp, int argc, char *argv[])
         return;
     }
 
-//    palClearLine(LINE_GPIOE_BYPASS_DISABLE);
-//    palClearLine(LINE_GPIOA_PHYRESET_N);
     chprintf(chp, "Rebooting...\n\r");
     chThdSleepMilliseconds(200);
 
