@@ -16,7 +16,7 @@ extern BaseSequentialStream* consoleStream;
 extern void dump(const char* data, int len);
 extern int checkhigher(int num1, const int num2, const unsigned int tolerance);
 extern int checklower(int num1, const int num2, const unsigned int tolerance);
-extern int checkequal(int num1, const int num2, const int threshold);
+extern int checkequal(int num1, int num2, const int threshold);
 
 #endif
 

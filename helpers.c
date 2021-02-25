@@ -102,7 +102,7 @@ int checklower(int num1, const int num2, const unsigned int tolerance)
 //!            -1 error (num2 +/- tolerance -> overflow)
 //
 /**************************************************************************************************/
-int checkequal(int num1, const int num2, const int threshold)
+int checkequal(int num1, int num2, const int threshold)
 {
     int lowerlimit, upperlimit, lastlowlim, lastuplim;
     lowerlimit = num2 - threshold;
