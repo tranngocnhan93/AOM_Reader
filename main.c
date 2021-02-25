@@ -19,7 +19,7 @@ int main(void)
       sdStart(&SD3, NULL);  /* Serial console in USART3, 115200 */
       consoleStream = (BaseSequentialStream *) &SD3;
 
-      PRINT("----------------------------------------------\n\r");
+      PRINT("\n\n\r----------------------------------------------\n\r");
       PRINT("\n\rEKE AOM Signal Reader\n\r");
       PRINT("----------------------------------------------\n\r");
 

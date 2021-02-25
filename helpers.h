@@ -14,6 +14,9 @@ extern BaseSequentialStream* consoleStream;
 #define ISPRINT(c) (char)(((((char)c)>=((char)32))&&(((char)c)<=((char)126)))?((char)c):((char)'.'))
 
 extern void dump(const char* data, int len);
+extern int checkhigher(int num1, const int num2, const unsigned int tolerance);
+extern int checklower(int num1, const int num2, const unsigned int tolerance);
+extern int checkequal(int num1, const int num2, const int threshold);
 
 #endif
 
